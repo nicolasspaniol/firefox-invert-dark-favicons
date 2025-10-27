@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Invert dark favicons",
+    "description": "Inverts the colors of dark favicons so that they are visible under black backgrounds.",
+    "homepage_url":"https://github.com/nicolasspaniol/firefox-contrast-favicons",
+    "version": "1.0.0",
+    "permissions": [
+        "<all_urls>",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["js/content.js"],
+        "run_at": "document_end",
+      }
+    ],
+    "icons": {
+        "32": "icons/icon32.png",
+        "64": "icons/icon64.png",
+    }
+}
