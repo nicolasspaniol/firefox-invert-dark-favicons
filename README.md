@@ -1,5 +1,5 @@
-### Invert dark favicons
+# Invert dark favicons
 
- Firefox addon that inverts the colors of dark favicons so that they are visible under black backgrounds.
+Firefox addon that inverts the colors of dark favicons so that they are visible under black backgrounds.
 
- *Example:*
+![Example](screenshot.png "Example")
